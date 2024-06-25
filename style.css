@@ -1,1 +1,131 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+main{
+background-color: hsl(30, 54%, 90%);
+height: 100vmax;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.big_box{
+  background-color: white;
+  width: 40%;
+ border-radius: 1rem;
+ padding-left: 50px;
+ padding-right: 50px;
+
+  
+}
+
+.big_box img{
+height: 100%;
+width: 95%;
+margin-top: 40px;
+margin-bottom: 40px;
+border-radius: 1rem;
+}
+
+header h2{
+  color:  hsl(24, 5%, 18%)
+  ;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "display=swap", sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+p{
+  font-size: 14px;
+  margin-bottom: 1rem;
+  font-family: "Young",Arial, Helvetica, sans-serif;
+  line-height: 18px;
+}
+
+.timing{
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+.timing h3{
+ color: hsl(332, 51%, 32%)
+ ;
+ font-family: "display=swap", sans-serif;
+ font-size: 23px;
+
+}
+
+.timing ul{
+  margin: 20px 0px 10px 20px;
+  line-height: 23px;
+}
+
+.timing ul li{
+  font-size: 13px;
+}
+
+.items h3{
+  color: hsl(332, 51%, 32%);
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: "display=swap", sans-serif;
+}
+
+.items ul{
+  margin: 20px 0px 25px 20px;
+  line-height: 23px;
+}
+
+
+.items ul li{
+  font-size: 13px;
+}
+
+.guild h3{
+  color: hsl(332, 51%, 32%);
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: "display=swap", sans-serif;
+}
+
+.guild ol{
+  margin: 20px 0px 20px 20px;
+  line-height: 23px;
+}
+
+.guild ol li{
+  font-size: 13px;
+}
+
+.nutrition h3{
+  color: hsl(332, 51%, 32%);
+  font-size: 23px;
+  margin-bottom: 15px;
+  font-family: "display=swap", sans-serif;
+}
+
+.nutrition p{
+  font-size: 13px;
+}
+
+table {
+  width: 100%;
+  margin: 20px 0; /* Optional: Adds some space around the table */
+}
+
+th, td {
+  border-bottom: 1px solid #353131; /* Black border for table cells */
+  padding: 3px;
+  text-align: left; /* Align text to the left */
+}
+
